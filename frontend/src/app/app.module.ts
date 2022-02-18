@@ -5,20 +5,20 @@ import { NzIconModule } from 'ng-zorro-antd/icon';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarLeftComponent } from './views/components/navbar-left/navbar-left.component';
-import { NavigationComponent } from './views/components/navigation/navigation.component';
 import { NZ_JIRA_ICONS } from './config/icons';
-import { SidebarComponent } from './views/components/sidebar/sidebar.component';
 import { ProjectComponent } from './views/pages/project/project.component';
 import { SvgDefinitionsComponent } from './views/shared/svg-definitions/svg-definitions.component';
 import { SvgIconComponent } from './views/shared/svg-icon/svg-icon.component';
+import { NavbarLeftComponent } from './views/components/navigation/navbar-left/navbar-left.component';
+import { SidebarComponent } from './views/components/navigation/sidebar/sidebar.component';
+import { NavigationComponent } from './views/components/navigation/navigation/navigation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationComponent,
     NavbarLeftComponent,
     SidebarComponent,
+    NavigationComponent,
     ProjectComponent,
     SvgDefinitionsComponent,
     SvgIconComponent
